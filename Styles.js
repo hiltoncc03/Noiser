@@ -9,14 +9,21 @@ export const defaultStyles = StyleSheet.create({
   },
   background: {
     backgroundColor: "#323232",
+    justifyContent: "center",
+    alignItems: "center",
     flex: 1,
   },
   quadro: {
-    marginBottom: 50,
-    marginTop: 50,
-    marginLeft: 20,
-    marginRight: 20,
-    backgroundColor: "blue",
+    width: 800,
+    height: 450,
+    backgroundColor: "#D9D9D9",
+    borderRadius: 17,
+  },
+  title: {
+    fontSize: 20,
+    fontWeight: 'bold',
     alignSelf: "center",
+    marginTop: 10,
+
   },
 });

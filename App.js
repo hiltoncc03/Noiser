@@ -5,7 +5,9 @@ import { SafeAreaView } from 'react-native-web';
 export default function App() {
   return (
     <SafeAreaView style = {defaultStyles.background}>
-      <View style={defaultStyles.quadro}><Text>aaaaaa</Text></View>
+      <View style={defaultStyles.quadro}>
+        <Text style = {defaultStyles.title}>Noiser</Text>
+      </View>
     </SafeAreaView>
   );
 }
